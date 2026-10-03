@@ -1,0 +1,12 @@
+{
+  "name": "my-post-has-an-alibi",
+  "version": "0.1.0",
+  "description": "Verifying a Bluesky post from scratch on the AT Protocol. Work in progress.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "identity": "node src/identity.js",
+    "test": "node --test"
+  }
+}
